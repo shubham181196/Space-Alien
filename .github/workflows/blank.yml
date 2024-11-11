@@ -26,13 +26,13 @@ jobs:
 
       - name: Check out Git repository
 
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
         
 
       - name: Run GitHub Super Linter
 
-        uses: github/super-linter@master
+        uses: github/super-linter@main
 
         env:
 
